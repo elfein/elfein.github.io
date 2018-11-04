@@ -42,8 +42,9 @@ $(function () {
     const constructProject = (project) => {
         return (
             `<div class="project">
-            <div class="info">
             <h3>${project.title}</h3>
+            <div class="content">
+            <div class="info">
             <div class='image' style="background-image: url(${project.image})"></div>
             <p>
             <a target="_blank" href=${project.liveSite}>Live Site</a> and 
@@ -57,6 +58,7 @@ $(function () {
             </div>
             <h6>Comments:</h6>
             <p>${project.comment}</p>
+            </div>
             </div>
             </div>`
         )

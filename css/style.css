@@ -90,7 +90,9 @@ h3 {
     font-family: 'Sacramento', cursive;
     font-weight: 400;
     font-size: 2em;
-    margin: 5px;
+    margin: 0 0 15px 0;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid rgb(102, 99, 64);
 }
 
 h2 {
@@ -117,6 +119,12 @@ a {
     font-weight: 400;
 }
 
+.intro > p, .portfolio-wrapper > p {
+    font-size: 1.3em;
+    line-height: 1.6em;
+    margin: 0.2em 0 0.6em 0;
+}
+
 .gallery {
     display: flex;
     flex-direction: column;
@@ -133,6 +141,11 @@ a {
     transition: position ease 0.5s;
     transform: scale(1);
     transition: transform ease 0.4s;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
     display: flex;
 }
 
@@ -158,10 +171,12 @@ a {
     width: 240px;
     height: 160px;
     margin: 10px auto;
+    border: 1px solid rgb(102, 99, 64);
 }
 
 footer {
-    margin: 5px 0 40px 0;
+    margin: 5px 20px 40px 20px;
+    text-align: center;
 }
 
 @media (max-width: 600px) {
@@ -173,6 +188,9 @@ footer {
 
     .project {
         max-width: 300px;
+    }
+
+    .content {
         flex-direction: column;
         align-items: center;
     }
@@ -180,9 +198,5 @@ footer {
     .details {
         width: 280px;
         padding: 0;
-    }
-
-    .technology {
-        text-align: center;
     }
 }
