@@ -25,7 +25,7 @@ $(function () {
         technology: 'MERN Stack',
         liveSite: 'https://starlight-movie-app.herokuapp.com',
         gitHub: 'https://github.com/elfein/project-three-movie-app',
-        comment: 'This movie-selection helper was made while thinking of groups of friends like mine that have fewer chances to get together and relax; any chance to save time in a fun way helps. Attempting more robust animations and transitions on this project was fun, and it was also satisfying to incorporate 3rd party APIs to create a more robust, usable app.'
+        comment: 'This movie-selection helper was made while thinking of groups of friends like mine that have fewer chances to get together and relax; any chance to save time in a fun way helps. Attempting more robust animations and transitions on this project was fun, and it was also satisfying to incorporate 3rd party APIs to create a more usable app.'
     }
 
     const abundance = {
