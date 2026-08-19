@@ -20,7 +20,12 @@ $(function () {
         'Oh shit, my media! ...No, wait, I had access to some of it.',
         'I can also be kind of an asshole. (“Kind of” = in the 70 percent–80 percent range.)',
         'Humans can miss a lot of little clues, but me being able to fire energy weapons from my arms would be something of a red flag.',
-        'I am actually trying my best despite the fuck-ups.'
+        'I am actually trying my best despite the fuck-ups.',
+        'I don\'t make threats, I\'m just telling you what I\'m going to do.',
+        '“That could be a good sign, right?” <br>“Sure,” I said. It was a terrible sign.',
+        'Again, I know in the telling it sounds like I was on top of this situation but really, I was still just thinking, <em>Oh shit oh shit oh shit.</em>',
+        'Maybe it was something subliminal. Actually, it felt pretty liminal. Pro-liminal. Up-liminal?',
+        '(Confession time: that moment, when the humans or augmented humans realize you\’re really here to help them. I don\’t hate that moment.)'
     ]
 
     const quote = quotes[Math.floor(Math.random()*quotes.length)]
@@ -30,7 +35,7 @@ $(function () {
     const quoteHTML = () => {
         return(
             `<div>
-            <h3>${quote}</h3>
+            <h3>${quote}<br>--The Murderbot Diaries</h3>
             </div>`
         )
     }
