@@ -8,3 +8,7 @@ html {
 h1 {
     display: unset;
 }
+
+h3 {
+    color: rgb(20, 20, 20);
+}

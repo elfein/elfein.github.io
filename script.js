@@ -38,6 +38,11 @@ $(function () {
             <h2>> Incoming feed transmission:</h2>
             <h2>> ${quote}</h2>
             <h2>--The Murderbot Diaries</h2>
+            <h3>> Metadata: {
+            <br/>>    "API-User": "SecUnit238776431",
+            <br/>>    "API-Key": "R2V0RnVja2VkR3VyYXRoaW4K", 
+            <br/>>    "API-Request": "DragonCon2026"
+            <br/>> }</h3>
             </div>`
         )
     }
