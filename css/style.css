@@ -1,6 +1,10 @@
 html {
-    background-color: rgb(243, 230, 213);
-    color: rgb(45, 43, 25);
-    font-family: 'Oswald', sans-serif;
-    max-width: 600px
+    background-color: rgb(24, 24, 21);
+    color: rgb(187, 208, 93);
+    font-family: 'Google Sans Code', monospace;
+    // max-width: 600px;
+}
+
+h1 {
+    display: unset;
 }

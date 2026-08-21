@@ -12,7 +12,7 @@ $(function () {
         'There needs to be an error code that means "I received your request but decided to ignore you."',
         '"I remember every word anyone ever said to me." That was a lie. Who would want that?',
         'There is a lot about what is going on here that I don\’t understand. But I am participating anyway.',
-        '<h1>BOLDNESS IS ALL</h1>',
+        '<span><h1>BOLDNESS IS ALL!!!</h1></span>',
         'It would have been hilarious if I wasn\’t about to die. It was still a little hilarious.',
         'The upside was paranoid attention to detail. The downside was also paranoid attention to detail.',
         'It wasn’t dead, it was just catastrophically damaged. (I know, who isn\’t?)',
@@ -35,7 +35,9 @@ $(function () {
     const quoteHTML = () => {
         return(
             `<div>
-            <h2>${quote}<br>--The Murderbot Diaries</h2>
+            <h2>> Incoming feed transmission:</h2>
+            <h2>> ${quote}</h2>
+            <h2>--The Murderbot Diaries</h2>
             </div>`
         )
     }
