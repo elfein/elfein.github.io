@@ -35,7 +35,7 @@ $(function () {
     const quoteHTML = () => {
         return(
             `<div>
-            <h3>${quote}<br>--The Murderbot Diaries</h3>
+            <h2>${quote}<br>--The Murderbot Diaries</h2>
             </div>`
         )
     }
