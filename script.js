@@ -35,10 +35,11 @@ $(function () {
     const quoteHTML = () => {
         return(
             `<div>
-            <h2>> Incoming feed message:</h2>
+            <p class="id">feedID:Gurathin238776431</p>
+            <h2>> Incoming feed transmission:</h2>
             <h2>> ${quote}</h2>
             <h2>--The Murderbot Diaries</h2>
-            <h3>> Metadata: {
+            <h3 class="hidden">> Metadata: {
             <br/>>    "API-User": "SecUnit238776431",
             <br/>>    "API-Key": "R2V0RnVja2VkR3VyYXRoaW4K", 
             <br/>>    "API-Request": "DragonCon2026"
